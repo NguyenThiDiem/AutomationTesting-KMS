@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17310" started-at="2022-01-11T16:31:55Z" finished-at="2022-01-11T16:32:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17310" started-at="2022-01-11T16:31:55Z" finished-at="2022-01-11T16:32:13Z">
+      <class name="Selenium.BT1_Register">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="beforeClass" is-config="true" duration-ms="1947" started-at="2022-01-11T23:31:55Z" finished-at="2022-01-11T23:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC01_Register_Empty()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="TC01_Register_Empty" duration-ms="7054" started-at="2022-01-11T23:31:57Z" finished-at="2022-01-11T23:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Register_Empty -->
+        <test-method status="PASS" signature="TC02_Register_Invalid_Email()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="TC02_Register_Invalid_Email" duration-ms="1458" started-at="2022-01-11T23:32:04Z" finished-at="2022-01-11T23:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Register_Invalid_Email -->
+        <test-method status="PASS" signature="TC04_Register_Password_Less_Than_6_Chars()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="TC04_Register_Password_Less_Than_6_Chars" duration-ms="1305" started-at="2022-01-11T23:32:06Z" finished-at="2022-01-11T23:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_Register_Password_Less_Than_6_Chars -->
+        <test-method status="PASS" signature="TC_03_Register_IncorrectConfirm_Email()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="TC_03_Register_IncorrectConfirm_Email" duration-ms="1327" started-at="2022-01-11T23:32:07Z" finished-at="2022-01-11T23:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Register_IncorrectConfirm_Email -->
+        <test-method status="PASS" signature="TC_05_Register_Incorrect_Password()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="TC_05_Register_Incorrect_Password" duration-ms="1327" started-at="2022-01-11T23:32:09Z" finished-at="2022-01-11T23:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Register_Incorrect_Password -->
+        <test-method status="PASS" signature="TC_06_Register_Invalid_Phone()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="TC_06_Register_Invalid_Phone" duration-ms="1758" started-at="2022-01-11T23:32:10Z" finished-at="2022-01-11T23:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_Register_Invalid_Phone -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Selenium.BT1_Register@1d082e88]" name="afterClass" is-config="true" duration-ms="1100" started-at="2022-01-11T23:32:12Z" finished-at="2022-01-11T23:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Selenium.BT1_Register -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

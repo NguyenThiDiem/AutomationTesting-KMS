@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="Selenium.BT1_Register">
+        <methods>
+          <include name="TC02_Register_Invalid_Email"/>
+          <include name="beforeClass"/>
+          <include name="TC01_Register_Empty"/>
+          <include name="afterClass"/>
+          <include name="TC04_Register_Password_Less_Than_6_Chars"/>
+          <include name="TC_05_Register_Incorrect_Password"/>
+          <include name="TC_03_Register_IncorrectConfirm_Email"/>
+          <include name="TC_06_Register_Invalid_Phone"/>
+        </methods>
+      </class> <!-- Selenium.BT1_Register -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
